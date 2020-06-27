@@ -1,0 +1,11 @@
+.exterior-box {
+    border: 5px red solid;
+}
+
+.middle-box {
+    border: 8px green solid;
+}
+
+.interior-box {
+    border: 10px blue solid;
+}
