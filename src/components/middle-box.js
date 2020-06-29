@@ -4,7 +4,7 @@ class MiddleBox extends React.Component {
     render() {
         return (
             <div className="middle-box">
-                THIS IS THE MIDDLE BOX
+                {this.props.children}
             </div>
         )
     }

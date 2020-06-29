@@ -4,7 +4,7 @@ class ExteriorBox extends React.Component {
     render() {
         return (
             <div className="exterior-box">
-                THIS IS THE OUTER BOX
+                {this.props.children}
             </div>
         )
     }
