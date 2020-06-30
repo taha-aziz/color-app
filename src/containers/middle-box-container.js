@@ -16,7 +16,7 @@ class MiddleBoxCon extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return state;
+    return state
 }
 
 export default connect(mapStateToProps, actionCreators)(MiddleBoxCon);

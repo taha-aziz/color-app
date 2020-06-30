@@ -7,7 +7,8 @@ class InteriorBox extends React.Component {
             <div className="interior-box">
                 <div className="box-1" style={{backgroundColor: `${this.props.colors[0]}`}}></div>
                 <div className = "box-2" style={{backgroundColor: `${this.props.colors[1]}`}}></div>
-                <button style={{backgroundColor: `${this.props.colors[2]}`}}> Color Me!</button>
+                <button style={{backgroundColor: `${this.props.colors[2]}`}}
+                onClick={() => {this.props.handleClick()}}> Color Me!</button>
                 <div className="box-3" style={{backgroundColor: `${this.props.colors[3]}`}}></div>
                 <div className="box-4" style={{backgroundColor: `${this.props.colors[4]}`}}></div>
             </div>
