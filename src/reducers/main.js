@@ -1,5 +1,3 @@
-import { bindActionCreators } from "redux"
-
 let defaultState = {
     colors: ["red", "orange", "yellow", "green", "blue", "purple", "violet"]
 }

@@ -11,7 +11,7 @@ export function loadColors(){
     return(dispatch) => {
         return axios.get("http://www.colr.org/json/colors/random/7").then(
             (response) => {
-                updated_colors = response.data.matching_colors.map(c => "#" + c);
+                let updated_colors = response.data.matching_colors.map(c => "#" + c);
                 dispatch(changeColors(updated_colors));
             }
         )
