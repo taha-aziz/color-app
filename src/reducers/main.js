@@ -10,7 +10,7 @@ let defaultState = {
                  colors: action.colors
              }
          default : 
-             return state
+             return {...state}
      }
 }
 
