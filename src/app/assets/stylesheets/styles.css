@@ -11,7 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px red solid;
     height: 100%;
     width: 100%;
     box-sizing: border-box;
@@ -21,14 +20,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 8px green solid;
-    width: 60%;
-    height: 55%;
+    width: 50%;
+    height: 80%;
     box-sizing: border-box;
 }
 
 .interior-box {
-    border: 10px blue solid;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(100px, auto);
@@ -37,32 +34,28 @@
 }
 
 .interior-box > button {
-    border: 4px purple solid;
-    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
     grid-column: 2;
     grid-row: 2 / 3;
 }
 
 .box-1 {
-    border: 4px orangered solid;
     grid-column: 1 / 4;
     grid-row: 1;
 }
 
 .box-2 {
-    border: 4px darkred solid;
     grid-column: 1;
     grid-row: 2 / 3;
 }
 
 .box-3 {
-    border: 4px palevioletred solid;
     grid-column: 3;
     grid-row: 2 / 3;
 }
 
 .box-4 {
-    border: 4px black solid;
     grid-column: 1 / 4;
     grid-row: 3 / 4;
 }
